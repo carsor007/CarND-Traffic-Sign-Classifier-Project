@@ -21,8 +21,8 @@ The goals / steps of this project are the following:
 
 [image6]:  ./german_traffic_signs/1.png "No vehicles"
 [image7]:  ./german_traffic_signs/2.png "Roundabout mandatory"
-[image8]:  ./german_traffic_signs/3.png "Speed limit (60km/h)"
-[image9]:  ./german_traffic_signs/4.png "Go straight or right")
+[image8]:  ./german_traffic_signs/3.png "Speed limit 60km/h"
+[image9]:  ./german_traffic_signs/4.png "Go straight or right"
 [image10]: ./german_traffic_signs/5.png "Turn right ahead"
 
 ## Rubric Points
