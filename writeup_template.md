@@ -19,11 +19,11 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./german_traffic_signs/1.jpg "No vehicles"
-[image2]: ./german_traffic_signs/2.jpg "Roundabout mandatory"
-[image3]: ./german_traffic_signs/3.jpg "Speed limit (60km/h)"
-[image4]: ./german_traffic_signs/4.jpg "Go straight or right")
-[image5]: ./german_traffic_signs/5.jpg "Turn right ahead"
+[image1]: ./german_traffic_signs/1.png "No vehicles"
+[image2]: ./german_traffic_signs/2.png "Roundabout mandatory"
+[image3]: ./german_traffic_signs/3.png "Speed limit (60km/h)"
+[image4]: ./german_traffic_signs/4.png "Go straight or right")
+[image5]: ./german_traffic_signs/5.png "Turn right ahead"
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
