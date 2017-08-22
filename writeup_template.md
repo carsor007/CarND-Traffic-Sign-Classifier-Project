@@ -83,15 +83,34 @@ My final model consisted of the following layers:
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
+| Input         		| 32x32x1 grayscaled image 						| 
+| Convolution       	| 1x1 stride, valid padding, outputs 28x28x3 	|
 | RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
-| Fully connected		| etc.        									|
-| Softmax				| etc.        									|
-|						|												|
-|						|												|
+| Max pooling	      	| 2x2 stride, same padding, outputs 14x14x6 	|
+| Convolution 3x3	    | 1x1 stride, valid padding, outputs 10x10x16	|
+| RELU					|												|
+| Max pooling	      	| 2x2 stride, same padding, outputs 5x5x16 		|
+| Dropout				|												|
+| Fully connected 1		| Output 120, dropout rate: 0.75    			|
+| RELU					|												|
+| Dropout				|												|
+| Fully connected 2		| Output 84, dropout rate: 0.75     			|
+| RELU					|												|
+| Dropout				|												|
+| Logits/Output layer   | Output 43 									|
+ 
+After the train and valdiation process I tested my model against the test dataset. The accuracy is 93.7%.
+
+* learning rate is 0.001
+* epochs is 10
+* batch size is 128
+* dropout for train data is 0.75
+* dropout for validation and test data is 1.0
+
+My final model results were:
+* training set accuracy of 98.6%
+* validation set accuracy of 91.4% 
+* test set accuracy of 90.5%
  
 
 
