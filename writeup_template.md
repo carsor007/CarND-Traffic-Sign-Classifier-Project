@@ -128,8 +128,11 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![image1](german_traffic_signs/1.jpg "No vehicles")
+![image2](german_traffic_signs/2.jpg "Roundabout mandatory")
+![image3](german_traffic_signs/3.jpg "Speed limit (60km/h)")
+![image4](german_traffic_signs/4.jpg "Go straight or right")
+![image5](german_traffic_signs/5.jpg "Turn right ahead")
 
 The first image might be difficult to classify because ...
 
