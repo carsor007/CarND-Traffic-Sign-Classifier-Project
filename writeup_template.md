@@ -18,7 +18,7 @@ The goals / steps of this project are the following:
 
 
 [//]: # (Image References)
-
+[image5]:  ./examples/graph.png "Graph"
 [image6]:  ./german_traffic_signs/1.png "No vehicles"
 [image7]:  ./german_traffic_signs/2.png "Roundabout mandatory"
 [image8]:  ./german_traffic_signs/3.png "Speed limit 60km/h"
@@ -50,9 +50,9 @@ signs data set:
 
 ####2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Here is an exploratory visualization of the data set. 
 
-![alt text][image1]
+![alt text][image5]
 
 ###Design and Test a Model Architecture
 
