@@ -19,14 +19,11 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image1]: ./german_traffic_signs/1.jpg "No vehicles"
+[image2]: ./german_traffic_signs/2.jpg "Roundabout mandatory"
+[image3]: ./german_traffic_signs/3.jpg "Speed limit (60km/h)"
+[image4]: ./german_traffic_signs/4.jpg "Go straight or right")
+[image5]: ./german_traffic_signs/5.jpg "Turn right ahead"
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -127,12 +124,8 @@ If a well known architecture was chosen:
 ####1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 Here are five German traffic signs that I found on the web:
-
-![image1]: (./german_traffic_signs/1.jpg "No vehicles")
-![image2]: (./german_traffic_signs/2.jpg "Roundabout mandatory")
-![image3]: (./german_traffic_signs/3.jpg "Speed limit (60km/h)")
-![image4]: (./german_traffic_signs/4.jpg "Go straight or right"))
-![image5]: (./german_traffic_signs/5.jpg "Turn right ahead")
+![alt text][image1] ![alt text][image2] ![alt text][image3] 
+![alt text][image4] ![alt text][image5]
 
 
 The first image might be difficult to classify because ...
